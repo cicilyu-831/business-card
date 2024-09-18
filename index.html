@@ -41,6 +41,29 @@
             margin-right: 10px;
             vertical-align: middle;
         }
+         /* 媒体查询，用于小屏幕优化 */
+        @media only screen and (max-width: 600px) {
+            body {
+                font-size: 14px;
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            img {
+                max-width: 80%; /* 在小屏幕上缩小图片 */
+            }
+        }
     </style>
 </head>
 <body>
